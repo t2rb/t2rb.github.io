@@ -1,0 +1,162 @@
+/* STYLE.CSS BLOG */
+
+html {
+    background-image: url("http://trrb.xyz/img/rain.gif");
+    background-size: 50%;
+    background-color: black;
+}
+
+body {
+    color: white;
+    font-family: monospace;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+a {
+    color: #5c9cfc;
+}
+
+a:hover {
+    color: white;
+}
+
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: grey;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 2.5px;
+    width: 600px;
+}
+
+#navbar li {
+    display: inline;
+    padding: 2.5px;
+}
+
+#navbar a:hover {
+    color: #5c9cfc;
+}
+
+#presentation {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+#homepage {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.mainpage {
+    background-color: black;
+    border: 1px solid #5c9cfc;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 15px;
+}
+
+#presentation p {
+    border-top: 1px solid #24292f33;
+    max-width: 500px;
+    display: block;
+    padding: 15px;
+}
+
+.banner-footer ul {
+    border-top: 1px solid #24292f33;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #57667A;
+    font-size: 12px;
+    width: 500px;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.banner-footer li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 0;
+}
+
+.banner-footer img {
+    width: 80px; 
+    height: auto;
+    text-align: center;
+}
+
+.projects-list ul {
+    width: 400px;
+    padding: 0;
+}
+
+.ring-list ul {
+    width: 500px;
+    padding: 0;
+}
+
+.ring-list ul li {
+    display: inline-block;
+}
+
+.footer {
+    margin-top: 10px;
+    width: 100%;
+    height: 6px;
+    padding-bottom: 3px;
+}
+
+.footer ul {
+    border-top: 1px solid #5c9cfc;
+    padding: 0;
+    text-align: center;
+    padding-top: 3px;
+    padding-left: 20px;
+}
+
+.footer ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.footer li:last-of-type {
+    float: right;
+    padding-right: 5px;
+}
+
+.footer a {
+    color: white;
+}
+
+.version a {
+    color:#3582fc;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #5c9cfc;
+}
+
+.version a:hover {
+    color: white;
+}
