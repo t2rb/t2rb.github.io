@@ -137,10 +137,10 @@ a:hover {
     display: inline-block;
 }
 
-.footer li:last-of-type {
+/* .footer li:last-of-type {
     float: right;
     padding-right: 5px;
-}
+} */
 
 .footer a {
     color: white;
