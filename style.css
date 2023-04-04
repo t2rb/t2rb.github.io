@@ -80,6 +80,19 @@ p {
   padding-left: 20px;
 }
 
+.ring-list {
+  padding-top: 8px;
+}
+
+.ring-list li {
+  display: inline-block;
+}
+
+.ring-list img {
+  width: 128px;
+  height: auto;
+}
+
 .footer {
   padding-top: 12px;
 }
