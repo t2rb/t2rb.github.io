@@ -91,6 +91,11 @@ p {
 .ring-list img {
   width: 128px;
   height: auto;
+  margin: 2px;
+}
+
+.hide {
+  display: none;
 }
 
 .footer {
