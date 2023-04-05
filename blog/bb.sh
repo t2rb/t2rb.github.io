@@ -24,7 +24,7 @@ global_variables() {
     # The typical subtitle for each blog
     global_description=""
     # The public base URL for this blog
-    global_url="http://trrb.xyz/blog"
+    global_url="trrb.xyz/blog"
 
     # Your name
     global_author="trrb"
