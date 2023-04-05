@@ -38,6 +38,17 @@ body {
   font-weight: bold;
 }
 
+.navigation-blog {
+  display: flex;
+  justify-content: center;
+}
+
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -110,4 +121,8 @@ p {
 .footer img {
   width: 80px; 
   height: 28px;
+}
+
+hr {
+  display: none;
 }
