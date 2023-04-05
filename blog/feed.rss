@@ -2,9 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 <channel><title></title><link>trrb.xyz/blog/index.html</link>
 <description></description><language>en</language>
-<lastBuildDate>Wed, 05 Apr 2023 14:33:48 +0200</lastBuildDate>
-<pubDate>Wed, 05 Apr 2023 14:33:48 +0200</pubDate>
+<lastBuildDate>Wed, 05 Apr 2023 15:09:56 +0200</lastBuildDate>
+<pubDate>Wed, 05 Apr 2023 15:09:56 +0200</pubDate>
 <atom:link href="trrb.xyz/blog/feed.rss" rel="self" type="application/rss+xml" />
+<item><title>
+Slow Life, Less Phone
+</title><description><![CDATA[
+
+<section class="paragraph">
+	<p><br/>
+		Recently, I felt the need to slow down, to live a more peaceful life, without the pressure of answering every call, message or solicitation. I aspire to a life where the use of my phone is limited to calls and messages, in short, to its primary use.<br/><br/>
+
+In the past, whenever I had a free moment, whether it was cooking, commuting, or even in the bathroom, I would pull out my phone to distract myself on Reddit or Twitter.<br/><br/>
+
+But recently, I realized that without a phone, life is much more interesting. I read several articles and discovered that boredom breeds creativity, which fascinated me.<br/><br/>
+
+Taking a step back, I realized that <b>I was addicted to my smartphone</b>, and I decided to take steps to counter this addiction.<br/><br/>
+
+Since yesterday, I've been downloading my favorite albums in FLAC, either using torrent trackers or using <a href="https://github.com/yaronzz/Tidal-Media-Downloader" target="_blank">Tidal-dl</a> with my Tidal account, on a 30-day trial.<br/><br/>
+
+First of all, listening is much more pleasant than in MP3, I noticed details I never paid attention to in my favorite music, and it frees me from Spotify. In the long run, I'd like to get rid of this platform completely. Plus, it allows me to really enjoy the music I listen to. I have <b>12,000</b> songs saved on Spotify, but I don't even take the time to listen to them carefully, I move on in a few minutes. So I'm thinking of buying an iPod Classic 5 or 5.5 and modifying it to get more storage and be able to install Rockbox on it. That way I can listen to music in peace while running errands without being distracted by calls or messages on my smartphone.<br/><br/>
+
+Now, when I'm bored, instead of pulling out my phone, I'll read a book. Previously, I would put unnecessary pressure on myself by telling myself that I had to finish a chapter in one sitting to enjoy reading it. Right now I'm reading "I, Robot" by Isaac Asimov, which is absolutely brilliant. I'm even thinking of creating a "Books" category on this site, it could be interesting.<br/><br/>
+
+Recently, I decided to change my nightly habits by putting my phone in another room to avoid the overwhelming urge to check notifications every five minutes. I used to think that it might keep me busy if I couldn't sleep, but in reality it's worse. Now I'm going to try to focus on sleeping rather than using my phone.<br/><br/>
+
+I'm also going to try to let go by reminding myself that notifications can wait. I plan to spend more time with my loved ones and enjoy the beautiful weather that comes with spring.<br/><br/>
+
+In particular, I'm looking forward to hiking, it's an activity I love.<br/><br/>	
+<p>
+</section>
+
+<p>Tags: <a href='tag_smartphone.html'>smartphone</a>, <a href='tag_slow-life.html'>slow-life</a>, <a href='tag_thoughts.html'>thoughts</a></p>
+<!-- text end -->
+]]></description><link>trrb.xyz/blog/slow-life-less-phone.html</link>
+<guid>trrb.xyz/blog/./slow-life-less-phone.html</guid>
+<dc:creator>trrb</dc:creator>
+<pubDate>Wed, 05 Apr 2023 15:09:39 +0200</pubDate></item>
 <item><title>
 Hello World!
 </title><description><![CDATA[
