@@ -77,11 +77,11 @@ p {
   margin: 0;
 }
 
-.music li {
+.list li {
   list-style-type: disc;
 }
 
-.music {
+.list {
   padding-left: 20px;
 }
 
