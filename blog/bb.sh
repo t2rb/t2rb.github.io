@@ -448,13 +448,13 @@ create_html_page() {
         [[ -n $body_begin_file ]] && cat "$body_begin_file"
         [[ $filename = $index_file* ]] && [[ -n $body_begin_file_index ]] && cat "$body_begin_file_index"
         # body divs
-        echo '<div id="divbodyholder">'
-        echo '<div class="headerholder"><div class="header">'
+        # echo '<div id="divbodyholder">'
+        # echo '<div class="headerholder"><div class="header">'
         # blog title
-        echo '<div id="title">'
+        # echo '<div id="title">'
         cat .title.html
-        echo '</div></div></div>' # title, header, headerholder
-        echo '<div id="divbody"><div class="content">'
+        #echo '</div></div></div>' # title, header, headerholder
+        echo '<div class="blog_content">' # <div id="divbody">
 
         file_url=${filename#./}
         file_url=${file_url%.rebuilt} # Get the correct URL when rebuilding
@@ -498,7 +498,7 @@ create_html_page() {
         # page footer
         cat .footer.html
         # close divs
-        echo '</div></div>' # divbody and divbodyholder 
+        # echo '</div></div>' # divbody and divbodyholder 
         disqus_footer
         [[ -n $body_end_file ]] && cat "$body_end_file"
         echo '</body></html>'
@@ -991,7 +991,7 @@ create_css() {
         ul,ol{margin-left:24px;margin-right:24px;}
         #all_posts{margin-top:24px;text-align:center;}
         .subtitle{font-size:small;margin:12px 0px;}
-        .content p{margin-left:24px;margin-right:24px;}
+        .blog_content p{margin-left:24px;margin-right:24px;}
         h1{margin-bottom:12px !important;}
         #description{font-size:large;margin-bottom:12px;}
         h3{margin-top:42px;margin-bottom:8px;}
@@ -1011,7 +1011,7 @@ create_css() {
         #divbody{border:solid 1px #ccc;background-color:#fff;padding:0px 48px 24px 48px;top:0;}
         .headerholder{background-color:#f9f9f9;border-top:solid 1px #ccc;border-left:solid 1px #ccc;border-right:solid 1px #ccc;}
         .header{width:100%;max-width:800px;margin:0px auto;padding-top:24px;padding-bottom:8px;}
-        .content{margin-bottom:5%;}
+        .blog_content{margin-bottom:5%;}
         .nomargin{margin:0;}
         .description{margin-top:10px;border-top:solid 1px #666;padding:10px 0;}
         h3{font-size:20pt;width:100%;font-weight:bold;margin-top:32px;margin-bottom:0;}
