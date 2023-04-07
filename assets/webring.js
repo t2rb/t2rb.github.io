@@ -7,7 +7,7 @@ fetch('https://raw.githubusercontent.com/gattsuchan/lainchan-webring/main/webrin
   .then(data => {
     const website = data.items;
     for (let i = 0; i < website.length; i++) {
-      let webringImg = 'img/banner/' + website[i].img;
+      let webringImg = '../assets/img/banner/' + website[i].img;
       let webring = document.getElementById('webring');
       let webringList = document.createElement('li');
       let webringLink = document.createElement('a');
