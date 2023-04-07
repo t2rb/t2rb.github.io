@@ -24,6 +24,12 @@ body {
   text-decoration: underline;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .content {
   margin: 16px 20px;
   flex: 1;
@@ -120,6 +126,8 @@ p {
 hr {
   display: none;
 }
+
+
 
 /* responsive smartphone */
 @media (max-width: 612px) {
