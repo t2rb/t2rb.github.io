@@ -169,6 +169,10 @@ hr {
     border: none !important;
   }
 
+  .nav_icon {
+    display: none !important;
+  }
+
   .ring-list {
     display: flex;
     justify-content: center;
