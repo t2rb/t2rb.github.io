@@ -132,7 +132,15 @@ hr {
   display: none;
 }
 
+.nav_icon {
+  display: inline-flex;
+  justify-content: center;
+}
 
+.nav_icon img {
+  height: 24px;
+  width: auto;
+}
 
 /* responsive smartphone */
 @media (max-width: 612px) {
