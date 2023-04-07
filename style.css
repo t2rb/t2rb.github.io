@@ -35,6 +35,11 @@ header {
   flex: 1;
 }
 
+td {
+  border:1px solid #ffffff;
+  padding:5px;
+}
+
 .navigation {
   display: flex;
   flex-direction: column;
