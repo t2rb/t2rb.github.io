@@ -10,7 +10,7 @@
     <script>
       var r = new XMLHttpRequest();
       r.addEventListener('load', function() {
-          document.querySelector('#stats').innerText = "You are the " + JSON.parse(this.responseText).count + " visitors!"
+          document.querySelector('#stats').innerText = "There were" + JSON.parse(this.responseText).count + " visitors!"
        })
        r.open('GET', 'https://trrb.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
        r.send()
