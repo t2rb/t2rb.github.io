@@ -142,6 +142,40 @@ hr {
   width: auto;
 }
 
+/* comments */
+.home-desc {
+  display: none;
+}
+
+#HCB_comment_box .btn {
+  background: #074adb !important;
+  color: #ffffff !important;
+  border: 1px solid #fff !important;
+  border-radius: 0 !important;
+  font-size: 13px !important;
+  font-family: Verdana, Arial, Helvetica !important;
+}
+
+#HCB_comment_box a {
+  display: none !important;
+}
+
+.btn-secondary {
+  display: none !important;
+}
+
+#hcb_subscribe span {
+  color: #ffffff !important;
+  font-size: 13px !important;
+  font-family: Verdana, Arial, Helvetica !important;
+}
+
+#hcb_settings {
+  color: #ffffff !important;
+  font-size: 13px !important;
+  font-family: Verdana, Arial, Helvetica !important;
+}
+
 /* responsive smartphone */
 @media (max-width: 612px) {
 
