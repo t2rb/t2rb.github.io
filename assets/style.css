@@ -157,7 +157,7 @@ hr {
 }
 
 #HCB_comment_box a {
-  display: none !important;
+  display: none;
 }
 
 .btn-secondary {
