@@ -1,21 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+:root {
+  --primary: #454545;
+  --secondary: #2096f3;
+  --background: #ffffff;
+  --button: #000;
+}
+
+.dark {
+  --primary: #fdfdfd;
+  --secondary: #2096f3;
+  --background: #000;
+  --button: #fff;
+}
+
 body {
   font-family: Open Sans,Arial;
-  color: #454545;
+  color: var(--primary);
+  background: var(--background);
   font-size: 16px;
   margin: 2em auto;
-  max-width: 700px;
+  max-width: 600px;
   padding: 1em;
   line-height: 1.4;
 }
 
 a {
   text-decoration: none;
-  color: #2096f3;
+  color: var(--secondary);
 }
 
 a:hover,
 .active {
   text-decoration: underline;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--button);
+}
+
+.material-symbols-outlined {
+  font-size: 18px !important;
+  line-height: -10px;
 }
 
 header {
@@ -29,11 +58,15 @@ table {
 }
 
 td {
-  border:1px solid #000;
+  border:1px solid var(--primary);
   padding:5px;
 }
 
 .navigation ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
   padding: 0;
   margin: 0;
 }
@@ -41,14 +74,11 @@ td {
 .navigation li {
   list-style-type: none;
   display: inline-block;
+  padding-bottom: 10px;
 }
 
-.navigation li:after {
-  content: " · ";
-}
-
-.navigation li:last-of-type:after {
-  content: '';
+.navigation li:last-of-type {
+  padding: 0;
 }
 
 h1 {
@@ -89,12 +119,17 @@ hr {
 }
 
 #HCB_comment_box .btn {
-  background: #074adb !important;
-  color: #ffffff !important;
-  border: 1px solid #fff !important;
+  background: var(--secondary) !important;
+  color: var(--background) !important;
+  border: 1px solid var(--background) !important;
   border-radius: 0 !important;
   font-size: 13px !important;
   font-family: 'Open Sans' !important;
+}
+
+input, textarea {
+  color : var(--primary) !important;
+  background-color: var(--background) !important;
 }
 
 #HCB_comment_box a {
@@ -106,13 +141,13 @@ hr {
 }
 
 #hcb_subscribe span {
-  color: #ffffff !important;
+  color: var(--background)!important;
   font-size: 13px !important;
   font-family: Verdana, Arial, Helvetica !important;
 }
 
 #hcb_settings {
-  color: #ffffff !important;
+  color: var(--background) !important;
   font-size: 13px !important;
   font-family: Verdana, Arial, Helvetica !important;
 }
